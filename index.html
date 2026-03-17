@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실버케어 파트너스 | 고령 인구를 위한 종합 생애 마무리 지원</title>
+    <!-- 폰트 적용: Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 아이콘 폰트 (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="logo">
+                    <span class="logo-text">SILVERCARE</span>
+                </a>
+                <button class="mobile-close-btn" id="mobile-close-btn"><i class="fa-solid fa-times"></i></button>
+            </div>
+            
+            <div class="sidebar-nav-title">NAVIGATION</div>
+            <ul class="sidebar-nav">
+                <li><a href="#home" class="active"><i class="fa-solid fa-home"></i> <span>홈(대시보드)</span></a></li>
+                <li><a href="#about"><i class="fa-solid fa-building"></i> <span>회사 소개</span></a></li>
+                <li><a href="#services"><i class="fa-solid fa-layer-group"></i> <span>주요 서비스</span></a></li>
+                <li><a href="#features"><i class="fa-solid fa-star"></i> <span>차별화 강점</span></a></li>
+                <li><a href="#team"><i class="fa-solid fa-users"></i> <span>팀 소개</span></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> <span>상담 문의</span></a></li>
+            </ul>
+
+            <div class="sidebar-widget">
+                <div class="widget-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <h4>상담 센터</h4>
+                <p>실버케어 파트너스가 함께합니다. 언제든 편하게 연락주세요.</p>
+                <a href="#contact" class="btn-widget">무료 상담 신청</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-left">
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="breadcrumb">
+                        <strong>Dashboard</strong> <span class="divider">/</span> Home <span class="divider">/</span> Dashboard
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="icon-btn"><i class="fa-regular fa-bell"></i><span class="badge">3</span></button>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="대표이사 프로필">
+                    </div>
+                </div>
+            </header>
+
+            <div class="content-wrapper">
+                
+                <!-- Hero & Stats Row -->
+                <section id="home" class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-light-blue"><i class="fa-solid fa-building text-blue"></i></div>
+                        <div class="stat-info">
+                            <h3>설립 연도</h3>
+                            <p class="stat-value">2023</p>
+                            <p class="stat-desc">신뢰의 시작</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-light-orange"><i class="fa-solid fa-users text-orange"></i></div>
+                        <div class="stat-info">
+                            <h3>전문 인력</h3>
+                            <p class="stat-value">45<span>명</span></p>
+                            <p class="stat-desc">분야별 전문가</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-light-green"><i class="fa-solid fa-map-location-dot text-green"></i></div>
+                        <div class="stat-info">
+                            <h3>서비스 지역</h3>
+                            <p class="stat-value">2<span>곳</span></p>
+                            <p class="stat-desc">서울, 경기 전 지역</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-light-red"><i class="fa-solid fa-heart text-red"></i></div>
+                        <div class="stat-info">
+                            <h3>고객 만족도</h3>
+                            <p class="stat-value">98<span>%</span></p>
+                            <p class="stat-desc">따뜻한 동행</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Two Column Dashboard Layout -->
+                <div class="dashboard-grid">
+                    
+                    <!-- Left Column (Larger) -->
+                    <div class="grid-col-large">
+                        
+                        <!-- Hero Card (Big Message) -->
+                        <div class="card hero-card" id="about">
+                            <div class="hero-content">
+                                <h2>모든 어르신이 존엄하고 행복한<br>생애 마무리를 맞이할 수 있도록</h2>
+                                <p>실버케어 파트너스는 노후의 일상생활 지원부터 생애 마무리 질병 케어, 법률·행정, 장례까지 어르신의 곁에서 따뜻하게 동행합니다.</p>
+                                <a href="#contact" class="btn-primary">무료 상담 신청하기</a>
+                            </div>
+                        </div>
+
+                        <!-- 7대 핵심 서비스 -->
+                        <div class="card" id="services">
+                            <div class="card-header">
+                                <h3>7대 핵심 서비스</h3>
+                                <button class="btn-icon-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                            </div>
+                            <div class="card-body">
+                                <div class="services-list">
+                                    <div class="service-item">
+                                        <div class="service-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                                        <div class="service-text">
+                                            <h4>1. 생애 설계 상담</h4>
+                                            <p>전문 복지 상담사와의 1:1 심층 상담을 통해 맞춤형 마스터 플랜 수립</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                                        <div class="service-text">
+                                            <h4>2. 의료 케어 매니지먼트</h4>
+                                            <p>정기적인 병원 동행, 건강 모니터링, 전문 의료진 및 요양 서비스 연결</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-icon"><i class="fa-solid fa-house-user"></i></div>
+                                        <div class="service-text">
+                                            <h4>3. 일상생활 지원</h4>
+                                            <p>맞춤 식사 준비, 가사 환경 유지, 안전한 외출 동행 등으로 편안한 일상 선사</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+                                        <div class="service-text">
+                                            <h4>4. 사회적 연결</h4>
+                                            <p>취미 모임 주선, 세대 간 교류, 비슷한 관심사의 친구 매칭 프로그램 운영</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
+                                        <div class="service-text">
+                                            <h4>5. 디지털 자서전 제작</h4>
+                                            <p>전문 작가 및 촬영팀이 소중한 인생 여정을 영상과 책으로 기록</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Features (Chart Style Layout) -->
+                        <div class="card" id="features">
+                            <div class="card-header">
+                                <h3>왜 실버케어 파트너스인가요?</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="features-row">
+                                    <div class="feature-col">
+                                        <div class="feature-icon"><i class="fa-solid fa-user-check"></i></div>
+                                        <h4>맞춤형 1:1 전담 매니저</h4>
+                                        <p>전담 매니저 배정, 일관되고 세심한 통합 관리</p>
+                                    </div>
+                                    <div class="feature-col">
+                                        <div class="feature-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                                        <h4>검증된 분야별 전문가</h4>
+                                        <p>의료, 법률, 복지 등 5년 이상 경력 전문가 네트워크</p>
+                                    </div>
+                                    <div class="feature-col">
+                                        <div class="feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                                        <h4>가족과 같은 신뢰와 온기</h4>
+                                        <p>진심 어린 존중과 공감으로 내 가족의 일처럼</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right Column (Smaller) -->
+                    <div class="grid-col-small">
+                        
+                        <!-- Highlight Blue Card (Like Total Sales in example) -->
+                        <div class="card blue-card">
+                            <div class="blue-card-header">
+                                <h3>누적 상담 횟수</h3>
+                                <div class="tag">12% 증가</div>
+                            </div>
+                            <h2 class="huge-number">30,569<span>건</span></h2>
+                            <p class="subtitle">모든 어르신의 삶을 귀 기울여 듣습니다.</p>
+                            <!-- Fake chart line using SVG or div can go here -->
+                            <div class="fake-chart"></div>
+                        </div>
+
+                        <!-- Team List -->
+                        <div class="card" id="team">
+                            <div class="card-header">
+                                <h3>실버케어 전문가 팀</h3>
+                                <button class="btn-text">전체 보기</button>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="team-list">
+                                    <li>
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="김은혜 대표" class="avatar">
+                                        <div class="team-info">
+                                            <h4>김은혜</h4>
+                                            <p>대표 창업자 / 사회복지사</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="박지훈 매니저" class="avatar">
+                                        <div class="team-info">
+                                            <h4>박지훈</h4>
+                                            <p>의료 케어 총괄 매니저</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="이수진 상담사" class="avatar">
+                                        <div class="team-info">
+                                            <h4>이수진</h4>
+                                            <p>생애 설계 수석 상담사</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Testimonials -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>고객 후기</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="testimonial-mini">
+                                    <div class="test-header">
+                                        <div class="avatar-placeholder bg-blue">김</div>
+                                        <div>
+                                            <h4>김ㅇㅇ 어르신</h4>
+                                            <p class="text-muted">78세, 서울 서초구</p>
+                                        </div>
+                                    </div>
+                                    <p class="test-quote">"혼자서 막막했던 노후 준비를 매니저님 덕분에 든든하게 마쳤습니다."</p>
+                                </div>
+                                <hr class="divider-line">
+                                <div class="testimonial-mini">
+                                    <div class="test-header">
+                                        <div class="avatar-placeholder bg-green">이</div>
+                                        <div>
+                                            <h4>이ㅇㅇ 보호자</h4>
+                                            <p class="text-muted">어르신 자녀</p>
+                                        </div>
+                                    </div>
+                                    <p class="test-quote">"동행 서비스부터 꼼꼼한 건강 체크까지 알아서 챙겨주시니 정말 안심이 됩니다."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Contact Form Section Bottom -->
+                <div class="dashboard-grid single-col">
+                    <div class="card" id="contact">
+                        <div class="card-header">
+                            <h3>상담 문의하기</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="contact-split">
+                                <div class="contact-left">
+                                    <h4>성심껏 안내해 드리겠습니다.</h4>
+                                    <p class="mb-4 text-muted">어르신의 상황에 꼭 맞는 맞춤형 상담을 위해 아래 연락처로 문의하시거나, 폼을 남겨주시면 담당 매니저가 신속하게 연락드리겠습니다.</p>
+                                    
+                                    <div class="info-row">
+                                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                        <div class="info-text">
+                                            <strong>전화 상담</strong>
+                                            <span>1588-0000 (평일 09:00 - 18:00)</span>
+                                        </div>
+                                    </div>
+                                    <div class="info-row">
+                                        <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                                        <div class="info-text">
+                                            <strong>이메일 문의</strong>
+                                            <span>care@silvercarepartners.co.kr</span>
+                                        </div>
+                                    </div>
+                                    <div class="info-row">
+                                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                        <div class="info-text">
+                                            <strong>본사 오시는 길</strong>
+                                            <span>서울특별시 강남구 테헤란로 123, 실버타워 4층</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-right">
+                                    <form class="ui-form" onsubmit="event.preventDefault(); alert('상담 신청이 완료되었습니다.');">
+                                        <div class="form-group">
+                                            <label>성함 (어르신 또는 보호자)</label>
+                                            <input type="text" class="form-control" placeholder="홍길동" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>연락처</label>
+                                            <input type="tel" class="form-control" placeholder="010-1234-5678" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>문의 내용</label>
+                                            <textarea class="form-control" rows="4" placeholder="궁금하신 점을 남겨주세요." required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn-primary w-100">무료 상담 신청하기</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <footer class="dashboard-footer">
+                    <p>&copy; 2026 Silvercare Partners. All rights reserved. | 대표: 김은혜 | 사업자등록번호: 123-45-67890</p>
+                </footer>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
