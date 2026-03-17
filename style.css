@@ -7,9 +7,9 @@
     --border-color: #ecf0f5;
     
     /* Branding Colors */
-    --primary-blue: #3b5998; /* Or something similar #4361ee */
-    --primary-blue-hover: #2E467A;
-    --accent-blue: #eef2fa;
+    --primary-blue: #0284c7; /* Sky Blue - Adjusted for better contrast */
+    --primary-blue-hover: #0369a1;
+    --accent-blue: #e0f2fe;
     --green-color: #0acf97;
     --orange-color: #f9b931;
     --red-color: #fa5c7c;
@@ -333,7 +333,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Hero Card (Main Message) */
 .hero-card {
-    background: linear-gradient(135deg, var(--primary-blue), #2b457a);
+    background: linear-gradient(135deg, var(--primary-blue), #0369a1);
     color: white;
     border: none;
 }
